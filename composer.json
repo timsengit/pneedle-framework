@@ -1,0 +1,30 @@
+{
+    "name": "pneedle/framework",
+    "description": "The pneedle Framework.",
+    "keywords": ["framework", "pneedle"],
+    "license": "MIT",
+    "homepage": "https://github.com/timsengit/pneedle-framework",
+    "support": {
+        "issues": "https://github.com/timsengit/pneedle-framework/issues",
+        "source": "https://github.com/timsengit/pneedle-framework"
+    },
+    "authors": [
+        {
+            "name": "Timcngsen",
+            "email": "1547681531@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+
+    "autoload": {
+        "files": [
+            "src/Foundation/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
