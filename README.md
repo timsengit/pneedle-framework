@@ -18,5 +18,14 @@ PHP开发有两种方式：1，使用框架；2基于组件。
 ##### Redis: predis/predis
 
 
-## get start
+## Get Started
 > composer require pneedle/framework
+
+
+## License
+ 
+ pneedle is under the MIT license.
+ 
+ ## Links
+ 
+ * Official website: [pneedle-framework](https://github.com/timsengit/pneedle-framework)
