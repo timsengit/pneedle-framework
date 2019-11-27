@@ -15,7 +15,9 @@
         }
     ],
     "require": {
-        "php": "^7.2"
+        "php": "^7.2",
+        "catfan/medoo": "dev-master",
+        "predis/predis": "^2.0@dev"
     },
 
     "autoload": {
