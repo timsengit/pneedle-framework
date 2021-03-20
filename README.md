@@ -19,7 +19,10 @@ PHP开发有两种方式：1，使用框架；2基于组件。
 
 
 ## Get Started
-> composer require pneedle/framework
+> composer require pneedle/framework  
+> cd public  
+> php -S 0.0.0.0:1234  
+> 访问 http://localhost:1234/index.php?s=index/index
 
 
 ## License
