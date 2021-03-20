@@ -1,32 +1,25 @@
 {
-    "name": "pneedle/framework",
-    "description": "The pneedle Framework.",
-    "keywords": ["framework", "pneedle"],
-    "license": "MIT",
-    "homepage": "https://github.com/timsengit/pneedle-framework",
-    "support": {
-        "issues": "https://github.com/timsengit/pneedle-framework/issues",
-        "source": "https://github.com/timsengit/pneedle-framework"
-    },
+    "name": "timcng/simple-php-server",
+    "type": "project",
     "authors": [
         {
-            "name": "Timcngsen",
-            "email": "1547681531@qq.com"
+            "name": "xiaoyuanhost",
+            "email": "xiaoyuanhost@users.noreply.github.com"
         }
     ],
     "require": {
-        "php": "^7.2",
-        "catfan/medoo": "dev-master",
-        "predis/predis": "^2.0@dev"
+        "catfan/medoo": "^1.7"
     },
-
     "autoload": {
-        "files": [
-            "src/Foundation/helpers.php"
-        ]
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+        "psr-4": {
+            "Controllers\\": "Controller"
+        },
+         "files": ["config/config.php",
+            "config/configdb.php",
+            "config/routermap.php",
+            "src/function.php",
+            "src/initDB.php"
+        ],
+        "classmap": ["config","src"]
+    }
 }
